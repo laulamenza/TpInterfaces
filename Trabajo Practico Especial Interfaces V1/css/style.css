@@ -1,0 +1,292 @@
+.header-uni{
+    background-color: #2b5a99!important;
+}
+.header-uni .nav-link, .header-uni .nav-link .btn-login-logout{
+    color: #fcfdfd!important;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 200px;
+    margin-left: 10%;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
+    color: #fff;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    padding: 0px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700!important;
+    letter-spacing: 1.4px!important;
+}
+.banner{
+    width: 100%!important;
+    max-width: 100%!important;
+    margin-top: 7.5%!important;
+    height: 30vw;
+    background: linear-gradient(to right, #354d95, #14974b), url('../img/Uni-4-scaled.jpg') center/cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+}
+.banner article{
+    width: 80%!important;
+    max-width: 1440px!important;
+    margin-left: auto!important;
+    margin-right: auto;
+    padding-top: 9%;
+}
+.banner article h2{
+    color: #fff;
+    font-weight: 700;
+}
+.banner article p{
+    color: #fff;
+}
+.banner article p a{
+    background: #6894a8;
+    padding: 10px 50px 15px 50px;
+    color: #fff;
+}
+.banner article p.sobre-uel{
+    margin-bottom: 0px!important;
+    margin-top: 40px!important;
+}
+.carrera{
+    margin-bottom: 50px;
+    margin-top: 50px!important;
+    border: 2px solid #2b5a99;
+    max-width: 1440px;
+    width: 80%;
+}
+.carrera .col-left-info{
+    padding-top: 7.5%;
+    padding-left: 3%;
+}
+.carrera .col-md-6:not(.col-right-info){
+    padding-right: 0px!important;
+}
+.carrera .col-md-6:not(.col-left-info){
+    padding-left: 0px!important;
+}
+.carrera .col-right-info{
+    padding-top: 7.5%;
+    padding-right: 3%!important;
+    text-align: right;
+}
+.carrera .col-left-info .img-mobile, .carrera .col-right-info .img-mobile{
+    display: none;
+}
+.img-escritorio{
+    display: block;
+}
+.carrera .btn-primary, .login-html #container-login #loginForm .btn-primary{
+    background: #80a932;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    color: #fcfdfd;
+}
+.carrera .btn-primary:hover{
+    background-color: #2b5a99;
+}
+
+/*testimonios*/
+#testimonios {
+    padding-top: 1.208vw;
+    margin-bottom: 7.208vw;
+}
+
+#testimonios .tarjeta-testimonio{
+    background: #fcfdfd;
+    box-shadow: 2px 0px 4px rgb(18 104 58 / 50%);
+    margin-left: 0px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    border-radius: 6px;
+}
+#testimonios .container{
+    max-width: 1440px;
+    width: 80%;
+}
+#testimonios .col-lg-4.tarjeta-testimonio{
+    width: 32%!important;
+    margin-top: 100px;
+}
+#testimonios .tarjeta-testimonio:hover{
+    background: #6894a8;
+}
+#testimonios .tarjeta-testimonio:hover .resenia, #testimonios .tarjeta-testimonio:hover .autor-carrera{
+    color: #fcfdfd;
+}
+#testimonios .tarjeta-testimonio:hover .img-testimonio{
+    border: 2px solid #fcfdfd;
+}
+#testimonios .tarjeta-testimonio:not(:first-child){
+    margin-left: 2%;
+}
+#testimonios .img-testimonio{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #078e45;
+    margin-top: -75px;
+    margin-bottom: 20px;
+}
+#testimonios .resenia{
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 0px;
+}
+#testimonios .autor-carrera{
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+#testimonios .titulo{
+    text-align: center;
+    color: #078e45;
+}
+
+
+/*Login*/
+.login-html {
+    background: #d6e5f9;
+}
+#container-login{
+    width: 100%;
+    max-width: 100%;
+}
+#container-login .form-login{
+    width: 320px;
+    padding: 5% 0 0;
+    margin: auto;
+    text-align: center;
+}
+#container-login .form-login .login{
+    background: #fcfdfd;
+}
+#container-login .form-login img{
+    width: 90px;
+}
+#container-login .form-login .login #loginForm{
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+#loginForm label, #loginForm input{
+    width: 100%;
+    text-align: left;
+}
+#loginForm label{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+#loginForm input[type=text], #loginForm input[type=password]{
+    font-size: 24px;
+    line-height: 1.33333333;
+    width: 100%;
+    border-width: 0.0625rem;
+    padding: 0.1875rem 0.3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer .container{
+    width: 90%;
+    max-width: 1440px;
+}
+footer .redes-sociales span{
+    vertical-align: middle;
+}
+footer .redes-sociales img{
+    width: 25px;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px){
+    #testimonios .col-lg-4.tarjeta-testimonio {
+        width: 100%!important;
+        margin-top: 100px;
+    }
+    .banner {
+        margin-top: 25.5%!important;
+        height: 70vw;
+    }
+    .carrera .col-left-info .img-mobile, .carrera .col-right-info .img-mobile{
+        display: block;
+    }
+    .img-escritorio{
+        display: none;
+    }
+    .logo img{
+        width: 180px;
+    }
+    .banner article h2, .banner article p{
+        text-align: center;
+    }
+    .carrera .col-left-info {
+        padding-top: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    .carrera .col-right-info {
+        padding-top: 0;
+        padding-right: 0%!important;
+        text-align: center;
+    }
+    .carrera .col-right-info h2, .carrera .col-left-info h2{
+        padding: 20px 10px 0px 10px;
+    }
+    .carrera .col-right-info p, .carrera .col-left-info p{
+        padding: 0px 10px;
+    }
+    .carrera .col-right-info button, .carrera .col-left-info button{
+        margin-bottom: 20px
+    }
+    #testimonios .resenia {
+        padding: 0px 10px 20px 10px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 981px){
+    .font-45, .font-45 h2{
+        font-size: calc(1.4375rem + ((1vw - 9.81px) * 2.3429))!important;
+        min-height: 0vw;
+    }
+    .font-35, .font-35 p{
+        font-size: calc(1.125rem + ((1vw - 9.81px) * 1.8104))!important;
+        min-height: 0vw;
+    }
+    .fuente-22, .fuente-22 h1, .fuente-22 h2, .fuente-22 h3, .fuente-22 h4, .fuente-22 h5, .fuente-22 h6, .fuente-22 p, .fuente-22 span, .fuente-22 a {
+        font-size: calc(0.6875rem + ((1vw - 9.81px) * 1.1715))!important;
+        min-height: 0vw;
+    }
+}
+@media (min-width: 1920px){
+    .font-45, .font-45 h2{
+        font-size: 45px!important;
+    }
+    .font-35, .font-35 p{
+        font-size: 35px!important;
+    }
+    .fuente-22, .fuente-22 h1, .fuente-22 h2, .fuente-22 h3, .fuente-22 h4, .fuente-22 h5, .fuente-22 h6, .fuente-22 p, .fuente-22 span, .fuente-22 a {
+        font-size: 22px!important;
+        min-height: 0vw;
+    }
+}
