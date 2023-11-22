@@ -44,3 +44,11 @@ document.addEventListener('DOMContentLoaded', function () {
     isAuthenticated = sessionStorage.getItem('isAuthenticated') === 'true'; // Recuperar del sessionStorage
     updateMenu();
 });
+document.addEventListener('DOMContentLoaded', function () {
+    var path = window.location.pathname;
+    var page = path.split("/").pop(); // obtiene el nombre de la página actual
+    var link = document.querySelector('a[href="' + page + '"]');
+    if (link) {
+        link.parentElement.classList.add('active');
+    }
+});
