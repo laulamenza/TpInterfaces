@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Universidad en Loberia</title>
@@ -29,6 +28,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li id="escritorio" class="nav-item oculto">
+                    <a class="nav-link" href="escritorio.html">Escritorio</a>
                 </li>
                 <li class="nav-item">
                     <a id="loginMenuItem" class="nav-link" href="login.html"><img src="img/login.png"></a>
@@ -178,11 +180,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            isAuthenticated = sessionStorage.getItem('isAuthenticated') === 'true'; // Recuperar del sessionStorage
-            updateMenu();
-        });</script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var path = window.location.pathname;
